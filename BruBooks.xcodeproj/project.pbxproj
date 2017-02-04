@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55A75241E46510600A81DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A75231E46510600A81DBE /* AppDelegate.swift */; };
+		C55A75261E46510600A81DBE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A75251E46510600A81DBE /* RootViewController.swift */; };
+		C55A75281E46510600A81DBE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A75271E46510600A81DBE /* DataViewController.swift */; };
+		C55A752A1E46510600A81DBE /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A75291E46510600A81DBE /* ModelController.swift */; };
+		C55A752D1E46510600A81DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55A752B1E46510600A81DBE /* Main.storyboard */; };
+		C55A752F1E46510600A81DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55A752E1E46510600A81DBE /* Assets.xcassets */; };
+		C55A75321E46510600A81DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55A75301E46510600A81DBE /* LaunchScreen.storyboard */; };
+		C55A753D1E46510700A81DBE /* BruBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A753C1E46510700A81DBE /* BruBooksTests.swift */; };
+		C55A75481E46510700A81DBE /* BruBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A75471E46510700A81DBE /* BruBooksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C55A75391E46510700A81DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55A75181E46510200A81DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55A751F1E46510300A81DBE;
+			remoteInfo = BruBooks;
+		};
+		C55A75441E46510700A81DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55A75181E46510200A81DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55A751F1E46510300A81DBE;
+			remoteInfo = BruBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C55A75201E46510600A81DBE /* BruBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BruBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55A75231E46510600A81DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C55A75251E46510600A81DBE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		C55A75271E46510600A81DBE /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		C55A75291E46510600A81DBE /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		C55A752C1E46510600A81DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55A752E1E46510600A81DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55A75311E46510600A81DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C55A75331E46510600A81DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55A75381E46510700A81DBE /* BruBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55A753C1E46510700A81DBE /* BruBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruBooksTests.swift; sourceTree = "<group>"; };
+		C55A753E1E46510700A81DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55A75431E46510700A81DBE /* BruBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55A75471E46510700A81DBE /* BruBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruBooksUITests.swift; sourceTree = "<group>"; };
+		C55A75491E46510700A81DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55A751D1E46510300A81DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A75351E46510700A81DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A75401E46510700A81DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55A75171E46510200A81DBE = {
+			isa = PBXGroup;
+			children = (
+				C55A75221E46510600A81DBE /* BruBooks */,
+				C55A753B1E46510700A81DBE /* BruBooksTests */,
+				C55A75461E46510700A81DBE /* BruBooksUITests */,
+				C55A75211E46510600A81DBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55A75211E46510600A81DBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55A75201E46510600A81DBE /* BruBooks.app */,
+				C55A75381E46510700A81DBE /* BruBooksTests.xctest */,
+				C55A75431E46510700A81DBE /* BruBooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55A75221E46510600A81DBE /* BruBooks */ = {
+			isa = PBXGroup;
+			children = (
+				C55A75231E46510600A81DBE /* AppDelegate.swift */,
+				C55A75251E46510600A81DBE /* RootViewController.swift */,
+				C55A75271E46510600A81DBE /* DataViewController.swift */,
+				C55A75291E46510600A81DBE /* ModelController.swift */,
+				C55A752B1E46510600A81DBE /* Main.storyboard */,
+				C55A752E1E46510600A81DBE /* Assets.xcassets */,
+				C55A75301E46510600A81DBE /* LaunchScreen.storyboard */,
+				C55A75331E46510600A81DBE /* Info.plist */,
+			);
+			path = BruBooks;
+			sourceTree = "<group>";
+		};
+		C55A753B1E46510700A81DBE /* BruBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				C55A753C1E46510700A81DBE /* BruBooksTests.swift */,
+				C55A753E1E46510700A81DBE /* Info.plist */,
+			);
+			path = BruBooksTests;
+			sourceTree = "<group>";
+		};
+		C55A75461E46510700A81DBE /* BruBooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C55A75471E46510700A81DBE /* BruBooksUITests.swift */,
+				C55A75491E46510700A81DBE /* Info.plist */,
+			);
+			path = BruBooksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55A751F1E46510300A81DBE /* BruBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55A754C1E46510700A81DBE /* Build configuration list for PBXNativeTarget "BruBooks" */;
+			buildPhases = (
+				C55A751C1E46510300A81DBE /* Sources */,
+				C55A751D1E46510300A81DBE /* Frameworks */,
+				C55A751E1E46510300A81DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BruBooks;
+			productName = BruBooks;
+			productReference = C55A75201E46510600A81DBE /* BruBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55A75371E46510700A81DBE /* BruBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55A754F1E46510700A81DBE /* Build configuration list for PBXNativeTarget "BruBooksTests" */;
+			buildPhases = (
+				C55A75341E46510700A81DBE /* Sources */,
+				C55A75351E46510700A81DBE /* Frameworks */,
+				C55A75361E46510700A81DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55A753A1E46510700A81DBE /* PBXTargetDependency */,
+			);
+			name = BruBooksTests;
+			productName = BruBooksTests;
+			productReference = C55A75381E46510700A81DBE /* BruBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C55A75421E46510700A81DBE /* BruBooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55A75521E46510700A81DBE /* Build configuration list for PBXNativeTarget "BruBooksUITests" */;
+			buildPhases = (
+				C55A753F1E46510700A81DBE /* Sources */,
+				C55A75401E46510700A81DBE /* Frameworks */,
+				C55A75411E46510700A81DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55A75451E46510700A81DBE /* PBXTargetDependency */,
+			);
+			name = BruBooksUITests;
+			productName = BruBooksUITests;
+			productReference = C55A75431E46510700A81DBE /* BruBooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55A75181E46510200A81DBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "BruBooks Team!";
+				TargetAttributes = {
+					C55A751F1E46510300A81DBE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8993FK79Y2;
+						ProvisioningStyle = Automatic;
+					};
+					C55A75371E46510700A81DBE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8993FK79Y2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C55A751F1E46510300A81DBE;
+					};
+					C55A75421E46510700A81DBE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8993FK79Y2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C55A751F1E46510300A81DBE;
+					};
+				};
+			};
+			buildConfigurationList = C55A751B1E46510200A81DBE /* Build configuration list for PBXProject "BruBooks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55A75171E46510200A81DBE;
+			productRefGroup = C55A75211E46510600A81DBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55A751F1E46510300A81DBE /* BruBooks */,
+				C55A75371E46510700A81DBE /* BruBooksTests */,
+				C55A75421E46510700A81DBE /* BruBooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55A751E1E46510300A81DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A75321E46510600A81DBE /* LaunchScreen.storyboard in Resources */,
+				C55A752F1E46510600A81DBE /* Assets.xcassets in Resources */,
+				C55A752D1E46510600A81DBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A75361E46510700A81DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A75411E46510700A81DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55A751C1E46510300A81DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A75261E46510600A81DBE /* RootViewController.swift in Sources */,
+				C55A752A1E46510600A81DBE /* ModelController.swift in Sources */,
+				C55A75281E46510600A81DBE /* DataViewController.swift in Sources */,
+				C55A75241E46510600A81DBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A75341E46510700A81DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A753D1E46510700A81DBE /* BruBooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A753F1E46510700A81DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A75481E46510700A81DBE /* BruBooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C55A753A1E46510700A81DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55A751F1E46510300A81DBE /* BruBooks */;
+			targetProxy = C55A75391E46510700A81DBE /* PBXContainerItemProxy */;
+		};
+		C55A75451E46510700A81DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55A751F1E46510300A81DBE /* BruBooks */;
+			targetProxy = C55A75441E46510700A81DBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C55A752B1E46510600A81DBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55A752C1E46510600A81DBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55A75301E46510600A81DBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55A75311E46510600A81DBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55A754A1E46510700A81DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C55A754B1E46510700A81DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55A754D1E46510700A81DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8993FK79Y2;
+				INFOPLIST_FILE = BruBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brubooks.BruBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C55A754E1E46510700A81DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8993FK79Y2;
+				INFOPLIST_FILE = BruBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brubooks.BruBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C55A75501E46510700A81DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8993FK79Y2;
+				INFOPLIST_FILE = BruBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brubooks.BruBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BruBooks.app/BruBooks";
+			};
+			name = Debug;
+		};
+		C55A75511E46510700A81DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8993FK79Y2;
+				INFOPLIST_FILE = BruBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brubooks.BruBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BruBooks.app/BruBooks";
+			};
+			name = Release;
+		};
+		C55A75531E46510700A81DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8993FK79Y2;
+				INFOPLIST_FILE = BruBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brubooks.BruBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BruBooks;
+			};
+			name = Debug;
+		};
+		C55A75541E46510700A81DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8993FK79Y2;
+				INFOPLIST_FILE = BruBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brubooks.BruBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BruBooks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55A751B1E46510200A81DBE /* Build configuration list for PBXProject "BruBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55A754A1E46510700A81DBE /* Debug */,
+				C55A754B1E46510700A81DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55A754C1E46510700A81DBE /* Build configuration list for PBXNativeTarget "BruBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55A754D1E46510700A81DBE /* Debug */,
+				C55A754E1E46510700A81DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C55A754F1E46510700A81DBE /* Build configuration list for PBXNativeTarget "BruBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55A75501E46510700A81DBE /* Debug */,
+				C55A75511E46510700A81DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C55A75521E46510700A81DBE /* Build configuration list for PBXNativeTarget "BruBooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55A75531E46510700A81DBE /* Debug */,
+				C55A75541E46510700A81DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55A75181E46510200A81DBE /* Project object */;
+}
